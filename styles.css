@@ -2,15 +2,21 @@
 
 /*Navigation Bar*/
 
-#Nav
+*
 {
-    /*margin: 0;
-    padding: 0;*/
-    /*width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav
+{
+    width: 100%;
     height: 100px;
     background-image: url("images/top_bar.jpg"); 
     position: fixed;
-    float:inline-start;*/
+    vertical-align: super;
+    /*float:inline-start;*/
+    
 }
 
 nav ul
@@ -27,13 +33,27 @@ nav ul li
 }
 
 /* Body of the home page */
-
-#bodyHome
+.home
 {
-    background-color:black;
-    display:inline-flex;
-    padding: 980px 1920px;
+    background-color: black;
     
 }
 
+#bodyHome
+{
+    background-color:red;
+    border: 2px solid royalblue;
+    margin-top: 100px;
+    width: 100%;
+    height: 2000px;
+    vertical-align: bottom;
+    position: fixed;
+    overflow: scroll;
+    
+   
+    /*display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;*/
+}
 

@@ -14,7 +14,7 @@ nav
     height: 100px;
     background-image: url("images/top_bar.jpg"); 
     position: fixed;
-    vertical-align: super;
+    top: 0;
     /*float:inline-start;*/
     
 }
@@ -41,14 +41,12 @@ nav ul li
 
 #bodyHome
 {
-    background-color:red;
     border: 2px solid royalblue;
     margin-top: 100px;
     width: 100%;
     height: 2000px;
-    vertical-align: bottom;
-    position: fixed;
-    overflow: scroll;
+    position: block;
+   
     
    
     /*display: flex;

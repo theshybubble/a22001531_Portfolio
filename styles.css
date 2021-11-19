@@ -32,26 +32,124 @@ nav ul li
     padding: 20px 8px;
 }
 
-/* Body of the home page */
-.home
+.btn
 {
-    background-color: black;
-    
+    font-family: 'Courier New', Courier, monospace;
 }
+
+/* Body of the home page */
 
 #bodyHome
 {
-    border: 2px solid royalblue;
+    /*border: 2px solid royalblue; */
+    background-color: black;
     margin-top: 100px;
     width: 100%;
-    height: 2000px;
-    position: block;
-   
-    
-   
-    /*display: flex;
+    height: 837px;
+    position: relative;
     align-items: center;
-    justify-content: center;
-    position: relative;*/
 }
 
+
+
+/* Body for the portfolio page */
+
+#portfolioBox
+{
+    border: 7px solid white;
+    background-color: black;
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 350px;
+    height: 650px;
+    display: inline-block;
+    position: relative; 
+    
+}
+
+aside
+{
+    transform: rotate(270deg);
+}
+
+aside h1
+{
+    color:white;
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+aside a
+{
+    text-decoration: none;
+}
+
+
+#portBoxV2
+{
+    background-color: #a2c1e2;
+    top: 0;
+    left:0;
+    margin-top: 100px;
+    margin-left: 553px;
+    width: 350px;
+    height: 650px;
+    display: inline-block;
+    display:flex;
+    flex-direction: column;
+    position:absolute;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    
+}
+
+#portBoxV2:hover
+{
+    opacity: 1;
+}
+
+#portBoxV3
+{
+    background-color:#ffe8b0;
+    top: 0;
+    left:0;
+    margin-top: 100px;
+    margin-left: 1362px;
+    width: 350px;
+    height: 650px;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+#portBoxV3:hover
+{
+    opacity: 1;
+}
+
+aside h2
+{
+    color: black;
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 0;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+
+/* Body for the about page */
+.
+/* Bpdy for the contact page */

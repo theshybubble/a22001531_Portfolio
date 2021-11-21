@@ -47,12 +47,13 @@ nav ul li
     width: 100%;
     height: 837px;
     position: relative;
+    position: fixed;
     align-items: center;
 }
 
 
 
-/* Body for the portfolio page */
+/* This part of the code is for the Portfolio page */
 
 #portfolioBox
 {
@@ -105,6 +106,7 @@ aside a
     align-items: center;
     justify-content: center;
     opacity: 0;
+    transition: opacity 0.25s;
     
 }
 
@@ -129,6 +131,7 @@ aside a
     align-items: center;
     justify-content: center;
     opacity: 0;
+    transition: opacity 0.25s;
 }
 
 #portBoxV3:hover
@@ -147,6 +150,70 @@ aside h2
     align-items: center;
     justify-content: center;
  
+}
+
+
+/* This part of the code is for the Sketch | Art | Fanart | Photography layout page */
+
+#gifs
+{
+    margin-top: 100px;
+    margin-left: 0;
+    width: 500px;
+    height: 837px;
+    display: inline-block;
+    position: relative; 
+    position: fixed;
+}
+
+#work
+{
+    background-color: black;
+    margin-top: 100px;
+    margin-left: 500px;
+    width: 100%;
+    height: 837px;
+    display: inline-block;
+    position: absolute;
+    position: fixed;   
+    overflow: auto;
+}
+
+/* This part od the code is for the Sketch page */
+
+#container
+{
+    /*background-color:lightcoral; */
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 90%;
+    height: 830px;
+    position: relative;
+    display: inline-block;
+    overflow: auto;
+} 
+
+#artWork
+{
+    /*background-color: moccasin; */
+    margin-top: 135px;
+    margin-left: 200px;
+    width: 400px;
+    height: 600px;
+    display: inline-block;
+    position: relative;
+}
+
+#description
+{
+    border-color: 5px solid lightskyblue;
+    background-color: moccasin;
+    margin-left: 150px;
+    width: 500px;
+    height: 400px;
+    display: inline-block;
+    position:relative;
+    vertical-align: 100px;
 }
 
 

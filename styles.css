@@ -179,7 +179,6 @@ aside h2
     overflow: auto;
 }
 
-/* This part od the code is for the Sketch page */
 
 #container
 {
@@ -197,7 +196,7 @@ aside h2
 {
     /*background-color: moccasin; */
     margin-top: 135px;
-    margin-left: 200px;
+    margin-left: 150px;
     width: 400px;
     height: 600px;
     display: inline-block;
@@ -206,8 +205,9 @@ aside h2
 
 #description
 {
-    border-color: 5px solid lightskyblue;
-    background-color: moccasin;
+    /*border-color: 5px solid lightskyblue;
+    background-color: moccasin; */
+    /*background-color: crimson; */
     margin-left: 150px;
     width: 500px;
     height: 400px;
@@ -216,7 +216,77 @@ aside h2
     vertical-align: 100px;
 }
 
+#artWorkV2
+{
+    margin-top: 200px;
+    margin-left: 150px;
+    width: 600px;
+    height: 400px;
+    display: inline-block;
+    position: relative;
+    vertical-align: 100px;
+}
+
+#descriptionV2
+{
+    /*background-color: moccasin;*/
+    margin-left: 100px;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    position: relative;
+    vertical-align: 100px;
+}
+
+/* This part of the code is for the text formatation. */
+
+.hr3
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: #a2c1e2;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 500px;
+    height:400px;
+    padding-top: 100px;
+    position: relative;
+    display: flex;
+    display: inline-block;
+}
+
+.hr4
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: #ffe8b0;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 500px;
+    height:400px;
+    padding-top: 100px;
+    position: relative;
+    display: flex;
+    display: inline-block;
+}
+
+.hr5
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 500px;
+    height:400px;
+    padding-top: 30px;
+    position: relative;
+    display: flex;
+    display: inline-block;
+}
 
 /* Body for the about page */
-.
 /* Bpdy for the contact page */

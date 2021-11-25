@@ -15,8 +15,6 @@ nav
     background-image: url("images/top_bar.jpg"); 
     position: fixed;
     top: 0;
-    /*float:inline-start;*/
-    
 }
 
 nav ul
@@ -37,7 +35,9 @@ nav ul li
     font-family: 'Courier New', Courier, monospace;
 }
 
-/* Body of the home page */
+
+
+/* Body background for the Home | Contact | About pages */
 
 #bodyHome
 {
@@ -50,6 +50,8 @@ nav ul li
     align-items: center;
 }
 
+/* This part of of the code is the "container" the gif animation of the home page is */
+
 #TheShyArtist
 {
     margin-top: 40px;
@@ -61,6 +63,8 @@ nav ul li
     display: inline-block;
     position: absolute;
 }
+
+/* This part of the code is for the text formation in the home page */
 
 #welcome
 {
@@ -108,6 +112,8 @@ nav ul li
 
 /* This part of the code is for the Portfolio page */
 
+/* "Box" of the big buttons [ Sketch | Art | Fanart | Photogrqhy ] */
+
 #portfolioBox
 {
     border: 7px solid white;
@@ -117,9 +123,11 @@ nav ul li
     width: 350px;
     height: 650px;
     display: inline-block;
-    position: relative; 
-    
+    position: relative;  
 }
+
+/* This part is for the text formation of the protfolio page */
+/* Aside rotates de text to the wished position */
 
 aside
 {
@@ -142,6 +150,7 @@ aside a
     text-decoration: none;
 }
 
+/* "Box" of the big buttons but the "hover" version [ Sketch | Art ] */
 
 #portBoxV2
 {
@@ -159,14 +168,15 @@ aside a
     align-items: center;
     justify-content: center;
     opacity: 0;
-    transition: opacity 0.25s;
-    
+    transition: opacity 0.25s;   
 }
 
 #portBoxV2:hover
 {
     opacity: 1;
 }
+
+/* "Box" of the big buttons but the "hover" version [ Fanart | Photogrqhy ] */
 
 #portBoxV3
 {
@@ -192,6 +202,8 @@ aside a
     opacity: 1;
 }
 
+/* Text formation for the "hover" version of the first aside */
+
 aside h2
 {
     color: black;
@@ -202,11 +214,12 @@ aside h2
     display: flex;
     align-items: center;
     justify-content: center;
- 
 }
 
 
 /* This part of the code is for the Sketch | Art | Fanart | Photography layout page */
+
+/* "Box" for that the gifs can be inserted in as their own to sperate from the work "box" */
 
 #gifs
 {
@@ -218,6 +231,8 @@ aside h2
     position: relative; 
     position: fixed;
 }
+
+/* Background base for the work layout */
 
 #work
 {
@@ -232,6 +247,7 @@ aside h2
     overflow: auto;
 }
 
+/* This container holds the images of the work, along side with the text formation for the description */
 
 #container
 {
@@ -244,6 +260,8 @@ aside h2
     overflow: auto;
 } 
 
+/* "box" for the vertical layout of the work images */
+
 #artWork
 {
     margin-top: 135px;
@@ -254,6 +272,8 @@ aside h2
     position: relative;
 }
 
+/* "box" for the text for the layout that goes with the vertical formation of the work images */
+
 #description
 {
     margin-left: 150px;
@@ -263,6 +283,8 @@ aside h2
     position:relative;
     vertical-align: 100px;
 }
+
+/* "box" for the horizontal layout of the work images */
 
 #artWorkV2
 {
@@ -275,6 +297,7 @@ aside h2
     vertical-align: 100px;
 }
 
+/* "box" for the text for the layout that goes with the horizontal formation of the work images */
 #descriptionV2
 {
     margin-left: 100px;
@@ -286,6 +309,7 @@ aside h2
 }
 
 /* This part of the code is for the text formatation. */
+/* this text is for the tittles that are in blue and it appears on the sketch and art pages */
 
 .hr3
 {
@@ -303,6 +327,7 @@ aside h2
     display: inline-block;
 }
 
+/* this text is for the tittles that are in yellow and it appears on the fanart and photography pages */
 .hr4
 {
     font-family: 'Courier New', Courier, monospace;
@@ -319,6 +344,7 @@ aside h2
     display: inline-block;
 }
 
+/* this is for the regular text in white for the descripiions */
 .hr5
 {
     font-family: 'Courier New', Courier, monospace;
@@ -336,6 +362,7 @@ aside h2
 }
 
 /* Body for the about page */
+/* "box" that contains the photo that apears on the about page*/
 
 #mePhotos
 {
@@ -348,15 +375,18 @@ aside h2
     float: left;
 }
 
+/* "box" that contains the text about myself on the about page */
+
 #aboutMe
 {
-    /*background-color: darkkhaki;*/
     margin-top: 100px;
     margin-left: 850px;
     width: 900px;
     height: 600px;
     position: relative; 
 }
+
+/* Tittle text on the about page */
 
 #aboutMe .hr3
 {
@@ -373,6 +403,8 @@ aside h2
     display: flex;
     display: inline-block;
 }
+
+/* Body text on the about page */
 
  #aboutMe .hr5
  {
@@ -392,7 +424,8 @@ aside h2
  }
 
 
-/* Bpdy for the contact page */
+/* Body for the contact page */
+/* this part is for the two animation gifs on the left [instagram icons] */
 
 #socialL
 {
@@ -406,6 +439,7 @@ aside h2
     z-index: 100;
 }
 
+/* this part is for the two animation gifs on the right [twitter and email icons] */
 #socialR
 {
     margin-top: 100px;
@@ -414,10 +448,10 @@ aside h2
     height: 500px;
     position: absolute;
     display: inline-block;
-    z-index: 100;
-    
+    z-index: 100;   
 }
 
+/* this is for the center image of the contact page */
 #thankYou
 {
     margin-top: 40px;

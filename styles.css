@@ -182,7 +182,6 @@ aside h2
 
 #container
 {
-    /*background-color:lightcoral; */
     margin-top: 5px;
     margin-left: 5px;
     width: 90%;
@@ -194,7 +193,6 @@ aside h2
 
 #artWork
 {
-    /*background-color: moccasin; */
     margin-top: 135px;
     margin-left: 150px;
     width: 400px;
@@ -205,9 +203,6 @@ aside h2
 
 #description
 {
-    /*border-color: 5px solid lightskyblue;
-    background-color: moccasin; */
-    /*background-color: crimson; */
     margin-left: 150px;
     width: 500px;
     height: 400px;
@@ -229,7 +224,6 @@ aside h2
 
 #descriptionV2
 {
-    /*background-color: moccasin;*/
     margin-left: 100px;
     width: 400px;
     height: 400px;
@@ -289,4 +283,73 @@ aside h2
 }
 
 /* Body for the about page */
+
+#mePhotos
+{
+    background-color: darkkhaki;
+    margin-top: 100px;
+    margin-left: 150px;
+    width: 600px;
+    height: 600px;
+    position: relative;
+    float: left;
+}
+
+#aboutMe
+{
+    /*background-color: darkkhaki;*/
+    margin-top: 100px;
+    margin-left: 850px;
+    width: 900px;
+    height: 600px;
+    position: relative; 
+}
+
+#aboutMe .hr3
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: #a2c1e2;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 900px;
+    height: 600px;
+    padding-top: 0;
+    position: relative;
+    display: flex;
+    display: inline-block;
+}
+
+ #aboutMe .hr5
+ {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: white;
+    text-align: left;
+    text-align: justify;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 900px;
+    height:600px;
+    padding-top: 15px;
+    position: relative;
+    display: flex;
+    display: inline-block;
+ }
+
+
 /* Bpdy for the contact page */
+
+#thankYou
+{
+    background-color: darkkhaki;
+    margin-top: 40px;
+    margin-left: 500px;
+    width: 800px;
+    height: 800px;
+    position: relative;
+    display: inline-block;
+}
+
+
